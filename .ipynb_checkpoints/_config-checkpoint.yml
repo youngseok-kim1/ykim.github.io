@@ -1,0 +1,18 @@
+#remote_theme: pages-themes/minima@v3.0.0
+#theme: minima
+remote_theme: "jekyll/minima@1fe0fbf"
+plugins:
+ - jekyll-remote-theme # add this line to the plugins list if you already have one
+ - jekyll-feed
+ - jekyll-seo-tag
+
+minima:
+  skin: auto
+  nav_pages:
+    - research.md
+    - members.md
+    - openings.md
+  date_format: "%b-%d-%Y"
+
+title: Home
+description: Youngseok Kim's research lab at OSU ECE department
